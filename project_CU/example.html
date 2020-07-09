@@ -4,18 +4,36 @@
 <title>PIXO</title>
 <meta charset="UTF=8">
 <link href="pixo.css" rel="stylesheet">
-
+  <style type="text/css">
+    *{
+      box-sizing: border-box;
+    }
+    .gallery{
+      borrder:10px solid #ccc;
+    }
+    .gallery img{
+      width: 100%;
+      height: auto;
+    }
+    .des{
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
   </head><body>
 	<div style="background: url('new folder/tekstura-perya-chernye-6617.jpg') no-repeat; background-size: cover; 
 	font-family: Arial; color: white;">
    <br>	
   <ul>
   	<li><span style="color: #E7DDDB; margin-right: 50px;"><strong><b>PIXO</b></strong></span></li>
-<li><a href="file:///C:/Users/USER/Desktop/project_CU/home.html" style="margin-left: 20px;">Home</a></li>
+<li><a href="D:\project_CU  " style="margin-left: 20px;">Home</a></li>
 <li><a style="margin-left: 20px;">pics</a></li>
 <li><a style="margin-left: 20px;">About</a></li>
-<li><a href="file:///C:/Users/USER/Desktop/project_CU/contact.html" style="margin-left: 20px;">contact</a></li>
+<li><a style="margin-left: 20px;">contact</a></li>
+
+
      </ul>
+
     <br> <br> <br>
      <h3 style="padding-left: 90px; ">PIXO-THEMES PRESENTS:</h3>
      <h1 style="padding-left: 140px; font-size:50px ">P I X O</h1> 
@@ -45,10 +63,10 @@ Georgia"><b><em>Choose the best suitable template and start customizing it. </em
    <table>
    </table> <br><br><br><br>
 </div>
-   <div style="background-color: #575A5D"> <br>
+   <div class="resposive" style="background-color: #575A5D"> <br>
    	<h1 style="margin-left: 530px;"><b>N A T U R E </b></h1> <br>
    	<table>
-   		<tbody><tr>
+   		<tbody><tr class="gallery">
    			<th><img style="margin-left: 40px;" src="new folder/3D-Nature-HD-Wallpaper-8.jpg" width="400" height="250"></th>
    			<th><img style="margin-left: 10px;" src="new folder/nature-wallpapers-38.jpg" width="400" height="250"></th>
    			<th><img style="margin-left: 10px;" src="new folder/hi8QqOs.jpg" width="400" height="250"></th>
@@ -175,29 +193,23 @@ Georgia"><b><em>Choose the best suitable template and start customizing it. </em
    	</tbody></table>
    	<br>
    </div>
-   <h2 style="padding-left: 550px">Contact Form</h2>
-<div class="container" style="width: 80%; margin-left: 125px; background-color: #747E81;">
- 				 <form action="/action_page.php">
-  				  <label for="fname">First Name</label>
-  				  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-			    <label for="lname">Last Name</label>
-  				  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-			    <label for="country">Country</label>
- 			   <select id="country" name="country">
- 			   	<option value="India">India</option>
- 		     <option value="australia">Australia</option>
-   				   <option value="canada">Canada</option>
-  		    <option value="usa">USA</option>
-   			 </select>
-
-  		  <label for="subject">Subject</label>
-  			  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-   		 <input type="submit" value="Submit">
-  		</form>
-			</div>
-			
+    <h3>Contact Form</h3>
+    <div class="container" style="height: 5%; width: 30%;">
+      <form action="/action_pagr.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="your lastname..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="Austrlia">Austrlia</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="Subject" name="subject" placeholder="write something.."
+        style="height:200px"></textarea>
+        <input type="submit" value="submit">
+      </form>
+    </div>
      </body>
      </html>
